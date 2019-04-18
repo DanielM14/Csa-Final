@@ -7,7 +7,6 @@
  */
 public class IntroToGame
 {
-    // instance variables - replace the example below with your own
     private int x;
 
     /**
@@ -15,7 +14,7 @@ public class IntroToGame
      */
     public IntroToGame()
     {
-        // initialise instance variables
+
         x = 0;
     }
 
@@ -27,7 +26,7 @@ public class IntroToGame
      */
     public int sampleMethod(int y)
     {
-        // put your code here
+
         return x + y;
     }
 }
