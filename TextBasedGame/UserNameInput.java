@@ -1,10 +1,9 @@
 import java.util.Scanner;
 public class UserNameInput
 {
-    public static int i = 5;
     static Scanner input = new Scanner(System.in);
     public static String userName;
-    public static void main(String[] args)
+    public static void names() throws InterruptedException
     {
         System.out.println("What's your name?");
         userName = input.nextLine(); /// All this allows the user to input their name

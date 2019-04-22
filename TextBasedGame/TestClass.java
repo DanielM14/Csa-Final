@@ -1,9 +1,10 @@
 
 public class TestClass
 {
-    String userName2 = UserNameInput.userName; 
-    public void TestClass()
+    public static void main(String[] args) throws InterruptedException
     {
-        System.out.println("Test class name is " + userName2);
+        UserNameInput.names();
+        String userName2 = UserNameInput.userName; 
+        System.out.println("\nTest class name is " + userName2);
     }
 }
