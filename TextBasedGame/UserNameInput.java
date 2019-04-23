@@ -7,7 +7,8 @@ public class UserNameInput
     {
         System.out.println("What's your name?");
         userName = input.nextLine(); /// All this allows the user to input their name
-        System.out.print("Hello " + userName + " nice to meet you");
+        System.out.print("Hello " + userName + " nice to meet you" + 
+        "\nplease use yes and no for answers please :)");
     }
 }
 /// Hey you cuck of a me remeber this int i = MyClass.someInt; to
