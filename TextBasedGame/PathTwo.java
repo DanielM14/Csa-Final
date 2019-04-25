@@ -8,7 +8,8 @@ public class PathTwo
         String answer = input.nextLine();
         if(answer.equalsIgnoreCase("Yes"))
         {
-         System.out.println("\nAh mt feelings, they hurt");   
+         System.out.println("\nAh mt feelings, they hurt");
+         PathOne.PathOne();
         }
         else if(answer.equalsIgnoreCase("No"))
         {
@@ -18,12 +19,21 @@ public class PathTwo
             {
              System.out.println("Then what do you want to do, just not" +
              "\ndo anything?"); 
-             //path 2 p 2
+             String does = input.nextLine();
+             if(does.equalsIgnoreCase("Yes"))
+             {
+             Path2Part2.Path2Part2();
             }
             else
             {
              System.out.println("So you just want to talk? Alright"); 
-             //path four
+             PathFour.PathFour();
+            }
+            }
+            else
+            {
+             System.out.println("So you just want to talk? Alright"); 
+             PathFour.PathFour();
             }
         }
     }
