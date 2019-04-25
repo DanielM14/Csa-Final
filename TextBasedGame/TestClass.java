@@ -5,7 +5,7 @@ public class TestClass
     {
         UserNameInput.names();
         String userName2 = UserNameInput.userName; 
-        System.out.println("\nDo you want to start?");
+        System.out.println("\nSo do you want to start?");
         Scanner input = new Scanner(System.in);
         String yesNo = input.nextLine();
         if(yesNo.equalsIgnoreCase ("yes"))
