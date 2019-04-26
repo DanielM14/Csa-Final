@@ -11,7 +11,7 @@ public class PathTwo
          System.out.println("\nAh mt feelings, they hurt");
          PathOne.PathOne();
         }
-        else if(answer.equalsIgnoreCase("No"))
+        else
         {
             System.out.println("Do you not want to play a game?");
             String answer2 = input.nextLine();
