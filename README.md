@@ -8,4 +8,4 @@
   
 ### Prerequisites
   
-    all you need to run our game is the program blueJ mainly becasue that is what we made the "Game" in
+    all you need to run our game is a program that can run java mainly becasue that is what we made the "Game" in
