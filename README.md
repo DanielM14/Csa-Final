@@ -9,3 +9,15 @@
 ### Prerequisites
   
     all you need to run our game is a program that can run java mainly becasue that is what we made the "Game" in
+    
+### Built With
+
+   We made this "Game" in the application called BlueJ.
+   
+### Authors
+   
+  Gio Jacobson and Daniel McGlasson
+  
+### Acknowlegments
+
+  Hats off to stackOverFlow for helping with the project
