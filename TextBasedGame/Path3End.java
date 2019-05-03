@@ -8,6 +8,7 @@ public class Path3End
         "\nto attack, it starts flying at you, think fast! it's" +
         "\nabout to breathe fire at you! \n Sword - Potion - Shield");
         String Block = input.nextLine();
+        int score2 = Path3Part2.score;
         if(Block.equalsIgnoreCase("Shield"))
         {
             System.out.println("You block the Dragon fire with" +
@@ -66,13 +67,14 @@ public class Path3End
                     System.out.println("What? Try again.");
                  i++;   
                 }
+                score2 = score2 + 1;
                 Block = input.nextLine();
             }
             System.out.println("You killed the Dragon" +
                   "\nand have saved the day!" +
                   "\nLet's find out what's on top of the mountain..." +
                   "\nA robot? Well at least you can salvage it for parts" +
-                  "\nThis was great, Game Ending, Pixely!");
+                  "\nThis was great" + score2 + " points, Game Ending, Pixely!");
         }
         else
         {
