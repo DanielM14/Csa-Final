@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class GetName
+public class GetName ///this is what sets the players name
 {
     static Scanner input = new Scanner(System.in);
     public static String name;

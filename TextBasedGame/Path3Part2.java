@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Path3Part2
 {
+    static int score = 0;
     public static void Path3Part2() throws InterruptedException
     {
         Scanner input = new Scanner(System.in);
@@ -66,6 +67,7 @@ public class Path3Part2
                  System.out.println("What? try again.");
                  i++;   
                 }
+                score = score + 1;
                 itemChoice = input.nextLine();
             }
             System.out.println("You killed the beast! But now" +
